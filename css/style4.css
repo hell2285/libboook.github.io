@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    display: flex;
+    width: 1440px;
+    height: 1024px;
+    padding: 10px;
+    background: #826249;;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.heading{
+    position: absolute;
+    left: 53px;
+    top: 68px;
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+
+.section1{
+    width: 1396px;
+    height: 296px;
+    position: absolute;
+    left: 22px;
+    top: 173px; 
+    border-radius: 46px;
+    border: 3px solid #5D4229;
+    background: #664530;
+    color: white;
+}
+
+.section2{
+    width: 1396px;
+    height: 296px;
+    position: absolute;
+    left: 22px;
+    top: 498px;
+    border-radius: 46px;
+    border: 3px solid #5D4229;
+    background: #664530;
+    color: white;
+}
+
+
+.title{
+    width: 649px;
+    height: 42px;
+    color: white;
+    font-size: 32px;
+    font-weight: 400;
+    position: absolute;
+    left: 36px;
+    top: 32px;
+}
+
+.author{
+    width: 235px;
+    height: 34px;
+    position: absolute;
+    left: 36px;
+    top: 79px;
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.about{
+    width: 1128px;
+    height: 126px;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    position: absolute;
+    left: 36px;
+    top: 141px;
+}
+
+.star-btn { 
+    width: 59px; 
+    height: 59px; 
+    background: black; 
+    position: absolute; 
+    right: 61px; 
+    top: 25px; 
+    clip-path: polygon( 
+        50% 0%, 
+        61% 35%, 
+        98% 35%, 
+        68% 57%, 
+        79% 91%, 
+        50% 70%, 
+        21% 91%, 
+        32% 57%, 
+        2% 35%, 
+        39% 35% 
+    ); 
+    cursor: pointer; 
+}
+
+button{
+    width: 135px;
+    height: 37px;
+    position: absolute;
+    top: 238px;
+    left: 1190px;
+    border-radius: 9px;
+    border: 1px solid #3F2B1A;
+    background: #826249;;
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+button:hover{
+    background: #664530;
+}
+
+nav {
+    width: 100vw;
+    padding-right: 30px;
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+
+.nav-item {
+    width: fit-content;
+    padding: .5em;
+    border: 2px solid #3F2B1A;
+    border-radius: 5px;
+    margin-right: 30px;
+    user-select: none;
+    cursor: pointer;
+    background: #BA997F;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item:hover {
+    background-color: #664530; 
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #826249;; 
+}

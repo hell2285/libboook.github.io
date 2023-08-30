@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+/* header {
+    width: 100%;
+    height: 100vh;
+    background: url('file:///C:/Users/gonch/Desktop/сыыа/img/light_picture.jpeg');
+    background-size: cover;
+    background-position: center center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+} */
+header {
+    width: 100%;
+    height: 100vh;
+    background: image-set('../img/dark_picture.jpeg');
+    background-size: cover;
+    background-position: center center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column; 
+}
+
+
+.arrow-next {
+    font-size: 5em;
+    margin: 0;
+    cursor: pointer;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: white;
+}
+/* main h1 {
+    font-size: 10px;
+    font-family:'Roboto' ;
+} */
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    background: white;
+    color: white;
+}
+
+section {
+    width: 100%;
+    min-height: 100vh;
+    background: #4a3121;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5em 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.section1 {
+    background-color: #826249;
+}
+
+.section2 {
+    background-color: #664530;
+    display: flex;
+}
+
+.section4 {
+    background-color: #826249;
+}
+
+.section3 {
+    background-color: #664530;
+}
+
+nav {
+    width: 100vw;
+    padding: 1em 0 1em;
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+
+.nav-item {
+    width: fit-content;
+    padding: .5em;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    margin-right: 1em;
+    user-select: none;
+    cursor: pointer;
+}
+
+#team > h1,
+#merch > h1 {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    text-align: left;
+    width: 80vw;
+    color: white;
+}
+
+.team-wrapper,
+.about-wrapper,
+.merch-wrapper {
+    width: 80vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2em;
+    color: #826249;
+}
+
+#about > h1 {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    text-align: left;
+    width: 80vw;
+    color: white;
+}
+
+.about-wrapper {
+    flex-direction: column;
+    color: white;
+}
+
+.about-wrapper p{
+    width: 100%;
+    color: white;
+}
+
+.team-item,
+.merch-item {
+    width: 22vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.merch-item {
+    width: 15vw;
+    color: white;
+}
+
+.team-item-top,
+.merch-item-top {
+    width: 100%;
+    aspect-ratio: 1/1;
+    background-size: cover;
+    border: 5px solid black;
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+    color: white;
+}
+
+.team1 .team-item-top {
+    background-image: url("../img/Tima.png");
+    background-size: cover;
+    
+}
+
+.team2 .team-item-top {
+    background-image: url('../img/artem.png');
+    background-size: cover;
+}
+
+.team3 .team-item-top {
+    background: url('../img/ofa.png');
+    background-size: cover;
+}
+
+.team4 .team-item-top {
+    background: url('../img/madiaar.png');
+    background-size: cover;
+}
+
+.team5 .team-item-top {
+    background: url('../img/amir.png');
+    background-size: cover;
+}
+
+.team6 .team-item-top {
+    background: url('../img/af.png');
+    background-size: cover;
+}
+
+.team-item-bottom h2,
+.merch-item-bottom h2 {
+    text-transform: uppercase;
+}
+
+.merch-item-bottom {
+    width: 100%;
+}
+
+.merch-item-bottom h2 {
+    font-size: 1em;
+    color: white;
+}
+
+.merch-item-bottom p {
+    font-size: .8em;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    color: white;
+}
+
+.merch1 .merch-item-top { 
+    background: url(../img/f.png); 
+    background-size: cover; 
+ 
+} 
+ 
+.merch2 .merch-item-top { 
+    background: url(../img/king.png); 
+    background-size: cover; 
+} 
+ 
+.merch3 .merch-item-top { 
+    background: url(../img/ar.jpg); 
+    background-size: cover; 
+} 
+ 
+.merch4 .merch-item-top { 
+    background: url(../img/gf.jpg); 
+    background-size: cover; 
+}
+
+.submit-wrapper {
+    width: 60vw;
+    color: white;
+}
+
+.submit-wrapper > h1 {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    text-align: left;
+    width: 60vw;
+    color: white;
+}
+
+.submit-form {
+    width: 100%;
+    display: flex;
+    border: 1px solid #5D4229;
+    border-bottom: none;
+    box-sizing: border-box;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 1em;
+    color: white;
+}
+
+.submit-btn-row{ 
+    display: flex; 
+    text-align: center; 
+    width: 60%; 
+} 
+ 
+.submit-btn { 
+    width: 50%; 
+    box-sizing: border-box; 
+    background: #664530; 
+    display: flex; 
+    justify-content: center; 
+    user-select: none; 
+    cursor: pointer; 
+    width: 100%; 
+}
+.submit-btn-send { 
+    border-bottom-right-radius: 5px; 
+     
+    border-left: 1px solid #5D4229; 
+    border-right: 1px solid #5D4229; 
+    border-bottom: 1px solid #5D4229; 
+ 
+}
+
+.submit-btn-calc {
+    border-bottom-left-radius: 5px;
+    padding: .5em;
+    border-right: .5px solid #664530;
+    border-left: 1px solid #5D4229;
+    border-bottom: 1px solid #5D4229;
+    color: white;
+}
+
+.submit-btn-send {
+    border-bottom-right-radius: 5px;
+    padding: .10em;
+    border-left: .5px solid #826249;;
+    border-right: 1px solid #826249;;
+    border-bottom: 1px solid #826249;;
+    color: white;
+}
+
+.submit-form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    color: white;
+}
+
+.submit-input,
+.submit-select {
+    font-family: 'Montserrat', sans-serif;
+    background: transparent;
+    border: none;
+    padding: .5em;
+    border-bottom: 1px solid #5D4229;
+    font-size: 1.1em;
+    box-sizing: border-box;
+    color: white;
+}
+
+.submit-input:active,
+.submit-input:focus,
+.submit-select:active,
+.submit-select:focus {
+    border-bottom: 1px solid #5D4229;
+    outline: none;
+    color: white;
+}
+
+
+.submit-input-label {
+    font-size: .7em;
+    margin: 0 0 1em 0;
+    padding-left: .7em;
+    color: white;
+}
+
+
+
+
+.add-to-cart-group {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+}
+
+.add-to-cart-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5em;
+    font-size: .8em;
+    aspect-ratio: 1 / 1;
+    color: white;
+    background: #5D4229;
+    border-radius: 2px;
+    width: fit-content;
+    user-select: none;
+}
+
+.add-to-cart-btn:hover {
+    background: #8a623d;
+    cursor: pointer;
+    color: white;
+}
+
+.add-to-cart-btn:active {
+    background: #5D4229;
+    color: white;
+}
+
+.cart-amount {
+    background: white;
+    color: white;
+    border-radius: 20%;
+    padding: 0 .2em;
+}
+
+.nav-item:hover {
+    background-color: #664530; 
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #826249;; 
+}
+
+select option {
+    color: white;
+    background-color: #664530;
+    font-size: 20px;
+  }
+select{
+    width: 100%;
+}
